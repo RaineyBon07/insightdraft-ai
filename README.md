@@ -10,7 +10,7 @@
 InsightDraft is a full-stack, cloud-native application designed to demonstrate the integration of Generative AI workflows within a Serverless Architecture. The system allows users to upload document context and receive AI-driven insights via a decoupled API.
 
 
-## 🌐 Live Demo
+### 🌐 Live Demo
 
 https://raineybon07.github.io/insightdraft-ai/
 
@@ -20,7 +20,7 @@ https://raineybon07.github.io/insightdraft-ai/
 
 This project demonstrates how to build and connect a frontend interface with a serverless backend using AWS services.
 
-## Users can:
+### Users can:
 - Paste any document content
 - Ask questions about the document
 - Receive AI-generated insights in real time
@@ -71,28 +71,30 @@ Response returned to the browser
 
 # 🚀 Getting Started
 
-## 1. Clone the repository
+### 1. Clone the repository
 
 git clone https://github.com/raineybon07/insightdraft-ai.git
 cd insightdraft-ai
 
-## 2. Open locally
+### 2. Open locally
 
-## You can either:
+### You can either:
 	•	Open index.html directly in your browser
 	•	Or use a local server (recommended):
 
 ### If using VS Code Live Server
+
 Right-click → Open with Live Server
 
 ---
 
 # 🔐 Configuration
 
-## Update the API endpoint inside index.html:
+### Update the API endpoint inside index.html:
+
 fetch ('https://q8so9ngalk.execute-api.us-east-1.amazonaws.com/default/InsightDraft-Backend') {
 
-## Ensure your API Gateway has:
+### Ensure your API Gateway has:
 	•	CORS enabled
 	•	POST method configured
 
@@ -106,18 +108,23 @@ fetch ('https://q8so9ngalk.execute-api.us-east-1.amazonaws.com/default/InsightDr
 ---
 
 # 📈 Future Improvements
-. Add file upload support (PDF, DOCX)
-. Improve UI/UX design and responsiveness
-. LLM Integration: Connecting the backend to Amazon Bedrock or OpenAI API for live inference
-. Integrate authentication: Implementing AWS Cognito for secure user login
-. Enhance AI processing capabilities
-. Deploy frontend via AWS S3 + CloudFront
+- Add file upload support (PDF, DOCX)
+
+- Improve UI/UX design and responsiveness
+
+- LLM Integration: Connecting the backend to Amazon Bedrock or OpenAI API for live inference
+
+- Integrate authentication: Implementing AWS Cognito for secure user login
+
+- Enhance AI processing capabilities
+
+- Deploy frontend via AWS S3 + CloudFront
 
 ---
 
 # 💼 Portfolio Value
 
-## This project demonstrates:
+### This project demonstrates:
 	•	Serverless architecture design
 	•	API integration between frontend and backend
 	•	Real-world use of AWS Lambda and API Gateway
