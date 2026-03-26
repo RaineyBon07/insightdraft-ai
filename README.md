@@ -31,6 +31,14 @@ This project demonstrates how to build and connect a frontend interface with a s
 
 This project follows modern Software Development Life Cycle (SDLC) principles, focusing on scalability, security, and separation of concerns.
 
+## Visual Overview
+
+![System Architecture](./architecture.png)
+This diagram illustrates the serverless flow from user input to AI-generated response using AWS services.
+
+
+## How it Works
+
 Frontend: HTML5, CSS3, and JavaScript (ES6+), hosted via GitHub Pages.
 ⬇️
 Backend: Python 3.x running on AWS Lambda (Serverless computing).
@@ -142,4 +150,3 @@ fetch ('https://q8so9ngalk.execute-api.us-east-1.amazonaws.com/default/InsightDr
   # 📬 Feedback
 
   If you have any feedback or suggestions, feel free to connect or open an issue!
-
